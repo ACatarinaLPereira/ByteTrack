@@ -1,20 +1,20 @@
-# TODO: Update with exact module version
+# TODO: Update with exact module version Alguns instalados com conda forge
 numpy
 torch>=1.7
 opencv_python
-loguru
-scikit-image
+loguru  
+scikit-image 
 tqdm
 torchvision>=0.10.0
 Pillow
 thop
 ninja
-tabulate
+tabulate 
 tensorboard
 lap
-motmetrics
-filterpy
-h5py
+motmetrics  
+filterpy 
+h5py 
 
 # verified versions 
 onnx==1.8.1
