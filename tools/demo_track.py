@@ -311,7 +311,8 @@ def main(exp, args):
 
     if args.trt:
         args.device = "gpu"
-    args.device = torch.device("cuda" if args.device == "gpu" else "cpu")
+    args.device = torch.device("cpu" if args.device == "gpu" else "cpu")
+    #args.device = torch.device("cpu" if args.device == "gpu" else "cpu") ------ ANTES ESTAVA ASSIM MAS NA VM ERA PRECISO POR PARA CPU SO PARA VER SE DAVA ------
 
     logger.info("Args: {}".format(args))
 
