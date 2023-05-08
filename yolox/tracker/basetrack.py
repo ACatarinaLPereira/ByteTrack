@@ -1,3 +1,5 @@
+#igual ao do joao
+
 import numpy as np
 from collections import OrderedDict
 

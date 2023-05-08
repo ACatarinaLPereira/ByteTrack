@@ -1,3 +1,5 @@
+#Igual ao do joao. ele tem alguns comentarios sobre alguns parametros por isso ve o file dele em caso de ser preciso alterar alguma coisa
+
 # vim: expandtab:ts=4:sw=4
 import numpy as np
 import scipy.linalg

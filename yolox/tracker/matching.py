@@ -1,3 +1,5 @@
+#pretty much igual mas ele acrescenta 2 funcowes chamadas new_distance e old_distance, not sure para que. h'a cpoisas diferentes nos imports basicamente porque o joao mudou files
+
 import cv2
 import numpy as np
 import scipy

@@ -1,3 +1,5 @@
+#muda algumas coisas quando chega a class de BYTEtracker e tb no final acrescenta uma funcao de associar detections a tracks. acho que o que 'e alterado no BYTEtrack 'e inicialmente os argumentos da funcao e depois o que se segue de acordo com isso
+
 import numpy as np
 from collections import deque
 import os

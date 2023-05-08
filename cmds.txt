@@ -3,3 +3,6 @@ python3 tools/demo_track.py video -f exps/example/mot/yolox_x_mix_det.py -c pret
 
 demo tracker em cpu:
 python3 tools/demo_track.py video -f exps/example/mot/yolox_x_mix_det.py -c pretrained/bytetrack_x_mot17.pth.tar --fuse --save_result
+
+track
+python tools/track.py -f exps/example/mot/yolox_x_ablation.py -c pretrained/bytetrack_ablation.pth.tar -b 1 -d 1 --fp16 --fuse
